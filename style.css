@@ -1,0 +1,37 @@
+.box {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.box .content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.titletext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mycolor {
+    color: rgb(19, 2, 2);
+    font-size: 30px;
+    font-weight: bold;
+    background-color: beige;
+}
+.card-title-divider {
+    height: 1px; 
+    background-color: grey;
+    margin-bottom: 10px;
+    
+}
+img.carousel-image {
+    height: 400px;
+    object-fit: cover;
+}

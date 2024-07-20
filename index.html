@@ -1,292 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: green;
-    color: #333;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-header .get-gear-btn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-main {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-main h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.categories {
-    margin-bottom: 40px;
-}
-
-.categories button {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.articles article {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: calc(33% - 40px);
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.articles article img {
-    max-width: 100%;
-    height: auto;
-}
-
-.articles article h2 {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-.articles article p {
-    margin: 10px 0;
-}
-
-.articles article a {
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-    color:lightslategray;
-    text-decoration: none;
-}
-
-
-footer {
-    font-weight: bold;
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    border-top: 1px solid #f4f4f4;
-}
-
-footer .footer-content {
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-footer .info, footer .social {
-    text-align: left;
-}
-
-footer .social a {
-    font-weight: bold;
-    display: block;
-    margin: 5px, 0;
-    color: #333;
-    text-decoration: none;
-}
-</style>
-
+<html lang="it">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Wander</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
 
-</head>
-    </header>
-    <main>
-    </style>
-</head>
-<body>
-    <div class="categories">
-        <h1>ARTWANDER</h1>
-        <button>Home</button>
-        <button>Mostre d'arte</button>
-        <button>Recensioni</button>
-        <button>Virtual Tour</button>
-        <button>Contatti</button>
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid bg-primary box p-0">
+      <img src="img\title_img.jpg" alt="Logo" class="content">
+      <h1 class="titletext">
+        ArtWander
+      </h1>
     </div>
-</body>
-<style>
-body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-.search-container {
-            position: absolute; 
-            top: 5px;          
-            right: 5px;        
-        }
-.search-input {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 4px 0 0 4px;
-    outline: none;
-}
-.search-button {
-    padding: 10px;
-    background-color: white;
-    border: 2px solid #ccc;
-    border-left: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-}
-.search-icon {
-    width: 10px;
-    height: 10px;
-}
-.search-button img {
-    width: 16px;
-    height: 16px;
-    color: #333;
-}
-</style>
-<body>
-                </head>
-                <body>
-                <form class="search-form">
-                    <input type="text" placeholder="Cerca..." class="search-input">
-                    <button type="submit" class="search-button">
-                        <img src="img/search-icon-2048x2048-cmujl7en.png" alt="Cerca" class="search-icon">
-                    </button>
-            </div>
-            
-            </html>
+    <div class="container">
+      <div class="row align-items-start column-gap-3 mt-4"> 
+        <div class="card col border-0" >
+          <div class="card-body">
+            <h5 class="card-title">Mostre medievali</h5>
+            <div class="card-title-divider"></div> 
+            <img src="img\title_img.jpg" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sassetta</li>
+              <li class="list-group-item">Giotto</li>
+              <li class="list-group-item">Cimabue</li>
+            </ul>
+          </div>
         </div>
-        <section class="articles">
-            <article>
-                <img src="img/MAESTRO SAN FRANCESCO.jpg" alt="Article Image">
-                <h2>L'enigma del maestro di San Francesco, lo stil novo del duecento umbro </h2>
-                <p>10 marzo - 9 giugno, 2024</p>
-                <p><a href="https://gallerianazionaledellumbria.it/mostre/lenigma-del-maestro-di-san-francesco/" target="_blank">Galleria Nazionale dell'Umbria</a></p>
-                <p>Per la prima volta, sessanta capolavori svelano i segreti dell'artista più importante attivo in Centro Italia, dopo Giunta Pisano e prima di Cimabue.
-                    La mostra rientra nell'ambito delle celebrazioni per l'ottavo centenario dall'impressione delle stigmate a san Francesco. A cura di Andrea De Marchi, Veruska Picchiarelli, Emanuele Zappasodi
-                </p>
-                <a href="#"> Leggi di più</a>
-            
-            </article>
-            <article>
-                <img src="img/eat and die.jpeg" alt="Article Image">
-                <h2>Robert Indiana:The Sweet Mystery</h2>
-                <p>17 aprile - 24 Novembre, 2024</p>
-                <p><a href="https://ecm.coopculture.it/index.php?option=com_snapp&view=event&id=94971808-97EE-97E2-3F46-018ECDAE70EF&catalogid=F34A3ABF-50FC-44EF-07B5-018EE1CA9D8C&lang=it" target="_blank">Procuratie vecchie di Venezia</a></p>
-                <p>La mostra, sviluppata con The Robert Indiana Legacy Initiative, offre una prospettiva rivelatrice sull'opera di Indiana, 
-                    incentrata sui temi fondamentali della spiritualità, dell'identità e della condizione umana, essenziali per comprendere
-                     l'evoluzione creativa dell'artista.</p>
-                <a href="#">Leggi di più</a>
-            </article>
-            <article>
-                <img src="img/monet.jpg" alt="Article Image">
-                <h2>Monet. Capolavori dal Muséè Marmottan</h2>
-                <p>9 marzo - 14 luglio, 2024</p>
-                <p><a href="https://www.altinatesangaetano.it/it/eventi/mostra-monet-capolavori-dal-mus%c3%a9e-marmottan-monet-di-parigi" target="_blank">Centro Culturale Altinate/San Gaetano</a></p>
-                <p>Oltre cinquanta capolavori eccezionalmente prestati dal Musée Marmottan Monet di Parigi 
-                    - tra cui le famosissime Ninfee - aiuteranno a ripercorrere la storia di uno dei più importanti 
-                    artisti di sempre.</p>
-                <a href="#">Leggi di più</a>
-            </article>
-            <article>
-                <img src="img/sassetta.webp" alt="Article Image">
-                <h2>Il Sassetta e il suo tempo</h2>
-                <p><a href="https://www.comune.massamarittima.gr.it/home/notizie-eventi/notizie/2024/03/IL-SASSETTA-E-IL-SUO-TEMPO.-In-mostra-dal-15.03-al-14.8.html" target="_blank"> Marittima, Musei di San Pietro all'Orto</a></p>
-                <p>14 marzo - 14 luglio, 2024</p>
-                <p>La mostra presenta, tra le molte opere del Sassetta concesse da musei e istituzioni nazionali, 
-                    una importantissima "prima", che è stata scoperta dal curatore della mostra. Solo il fine occhio 
-                    di un valente storico dell'arte come quello di Alessandro Bagnoli poteva riconoscere sotto una 
-                    pesante ridipintura un capolavoro del Sassetta, che l'eccellente restauro di Barbara Schleicher ha restituito alla piena leggibilità.</p>
-                <a href="#">Leggi di più</a>
-            </article>
-            <article>
-                <img src="img/16_Preraffaeliti_Dante-Gabriel-Rossetti_Roman-Widow.avif" alt="Article Image">
-                <h2>Preraffaelliti, rinascimento moderno</h2>
-                <p>24 febbraio - 30 giugno, 2024</p>
-                <p><a href="https://mostremuseisandomenico.it/" target="_blank">Museo civico san Domenico di Forlì</a></p>
-                <p>L'arte italiana, dal Medioevo al Rinascimento, presa a modello a partire dal 1848 fino agli anni Venti del Novecento: sono William Holman Hunt, 
-                    John Everett Millais e Dante Gabriel Rossetti i maestri del Preraffaellismo, 
-                    il movimento artistico nato nell'Inghilterra vittoriana, in risposta alle maglie strette della Royal Academy e alla ricerca di una purezza originaria.Ne nasceva un'arte - tra dipinti, sculture, disegni, stampe, fotografie, mobili, 
-                    ceramiche, opere in vetro e metallo, tessuti, medaglie, libri illustrati, manoscritti e gioielli -  visionaria, romantica, con punti di incontro con il simbolismo, l'art nouveau e il decadentismo. In mostra 300 opere di artisti italiani e internazionali.</p>
-                <a href="#">Leggi di più</a>
-            </article>
-            <article>
-                <img src="img/van gogh.avif" alt="Article Image">
-                <h2>Van Gogh</h2>
-                <p>22 febbraio - 30 giugno, 2024</p>
-                <p><a href="https://museorevoltella.it/" target="_blank">Museo Revoltella</a></p>
-                <p>Oltre cinquanta capolavori eccezionalmente prestati dal Musée Marmottan Monet di Parigi 
-                    - tra cui le famosissime Ninfee - aiuteranno a ripercorrere la storia di uno dei più importanti 
-                    artisti di sempre.</p>
-                <a href="#">Leggi di più</a>
-            </article>
-
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="info">
-                <p>info@artwander.com</p>
-                <p>Villafranca di Verona, CAP 37069</p>
-                <p>3471801777</p>
-            </div>
-            <div class="social">
-                <p>Contatti</p>
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-            </div>
+        <div class="card col border-0" >
+          <div class="card-body">
+            <h5 class="card-title">Mostre moderne</h5>
+            <div class="card-title-divider"></div> 
+            <img src="img\title_img.jpg" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sassetta</li>
+              <li class="list-group-item">Giotto</li>
+              <li class="list-group-item">Cimabue</li>
+            </ul>
+          </div>
         </div>
-        <p>© 2024, ArtWander. All rights reserved.</p>
-    </footer>
-</body>
+        <div class="card col border-0" >
+          <div class="card-body">
+            <h5 class="card-title">Mostre contemporanee</h5>
+            <div class="card-title-divider"></div> 
+            <img src="img\monet.jpg" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sassetta</li>
+              <li class="list-group-item">Giotto</li>
+              <li class="list-group-item">Cimabue</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <div class="row">
+            <div class="col">
+              sdfsfd
+            </div>
+            <div class="col">
+              <img src="img\title_img.jpg" class="d-block w-100 carousel-image" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              sdfsfd
+            </div>
+            <div class="col">
+              <img src="img\title_img.jpg" class="d-block w-100 carousel-image" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              sdfsfd
+            </div>
+            <div class="col">
+              <img src="img\title_img.jpg" class="d-block w-100 carousel-image" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h1>Home</h1>
+    <p>Benvenuto nella pagina principale del sito.</p>
+    <p>Per visualizzare la lista degli utenti registrati, clicca <a href="
+        users.html">qui</a>.</p>
+  </body>
 </html>
