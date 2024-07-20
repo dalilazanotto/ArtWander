@@ -35,3 +35,8 @@ img.carousel-image {
     height: 400px;
     object-fit: cover;
 }
+
+div.carousel-item-desc {
+    height: 400px;
+    background-color: rgb(249, 240, 216);
+}
